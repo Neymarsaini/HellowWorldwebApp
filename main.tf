@@ -24,7 +24,7 @@ resource "azurerm_resource_group" "tf_test" {
 }
 
 resource "azurerm_container_group" "tfcg_test" {
-  name                      = "HelloWorldWebApp"
+  name                      = "hellow-world-app"
   location                  = azurerm_resource_group.tf_test.location
   resource_group_name       = azurerm_resource_group.tf_test.name
 
