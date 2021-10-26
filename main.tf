@@ -33,7 +33,7 @@ resource "azurerm_container_group" "tfcg_test" {
   os_type             = "Linux"
 
   container {
-      name            = "HellowWorld"
+      name            = "helloworld"
       image           = "harshadsaini/helloworldapp:${var.imagebuild}"
         cpu             = "1"
         memory          = "1"
