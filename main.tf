@@ -19,7 +19,7 @@ variable "imagebuild" {
 
 
 resource "azurerm_resource_group" "tf_test" {
-  name = "tfmainrg"
+  name = "tfmainrgaz"
   location = "Australia East"
 }
 
